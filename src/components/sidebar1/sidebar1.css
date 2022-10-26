@@ -3,7 +3,6 @@
   height: 100vh;
   width: 70px;
 }
-
 .icons 
 {
   height: 25;
@@ -12,4 +11,10 @@
   color: #5f6368;
   opacity: 1;
 
+}
+.icons1 svg:hover {
+  background-color: #c3c5c7;
+  border-radius: 50%;
+  padding: 10px;
+ 
 }

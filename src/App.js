@@ -1,6 +1,6 @@
 import "./App.css";
-import Sidebar1 from "./sidebar1/Sidebar1";
-import Content from "./contentArea/Content";
+import Sidebar1 from "../src/components/sidebar1/Sidebar1";
+import Content from "../src/components/contentArea/Content";
 function App() {
   return (
     <div style={{ display: "flex", flexDirection: "row" }}>

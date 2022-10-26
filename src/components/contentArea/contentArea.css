@@ -40,5 +40,11 @@
     font-weight: 500;
     color:#1f1f1f;
     padding: 8px 8px 0 26px;
-    margin: 0 0 12px;
+    margin:0 0 12px;
+        
+}
+.labels img
+{
+   margin-left: 100px;
+
 }
