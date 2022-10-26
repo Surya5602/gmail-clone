@@ -1,0 +1,44 @@
+.MainPage
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(246,248,252);
+}
+.Gmail-logo{
+    margin-top: 12px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+.compose{
+    display: flex;
+    justify-content: center;
+    padding: 14px 12px 14px 12px;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 11px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    background-color: rgb(194,231,255);
+    width: fit-content;
+    cursor: pointer;
+
+}
+.compose-logo {
+    height: 24px;
+    width: 24px;
+}
+
+.compose p{
+   margin-top: 3px;
+   font-size: 0.90rem;
+   margin: 5px;
+   padding-left: 10px;
+
+} 
+.labels{
+    font-weight: 500;
+    color:#1f1f1f;
+    padding: 8px 8px 0 26px;
+    margin: 0 0 12px;
+}

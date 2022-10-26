@@ -1,0 +1,17 @@
+.icon-btn1{
+    padding: 0 0 0 16px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.icon-btn-image1{
+    size: 20px;
+}
+.icon-btn-name1{
+    margin-left: 11px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: normal;
+    color: #202124;
+    text-shadow: none;
+}

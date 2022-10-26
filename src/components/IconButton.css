@@ -1,0 +1,21 @@
+.icon-btn
+{
+    height: 10px;
+    padding-top: 19px;
+    padding-bottom: 8px;
+    margin-bottom: 38px;
+    padding-right: 2px;
+}
+.icon-btn-image{
+    margin-left: 23px;
+}
+
+.icon-btn-name{
+    font-size: .75rem;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 3.5px;
+    word-break: break-word;
+    letter-spacing: normal;
+    color: #444746;
+}

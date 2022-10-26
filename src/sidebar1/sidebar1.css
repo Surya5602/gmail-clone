@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: rgb(234,241,251);
+  height: 100vh;
+  width: 70px;
+}
+
+.icons 
+{
+  height: 25;
+  margin: 17;
+  cursor: pointer;
+  color: #5f6368;
+  opacity: 1;
+
+}
