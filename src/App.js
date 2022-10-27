@@ -8,7 +8,7 @@ function App() {
       <Sidebar1 />
       <Content/>
       <MainArea/>
-    </div>
+          </div>
   );
 }
 

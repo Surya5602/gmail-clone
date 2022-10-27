@@ -1,0 +1,40 @@
+.message-top-total
+{
+    justify-content: space-between;
+}
+
+.left-side{
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    margin: 2px 15px;
+    border-radius: 10px;
+}
+.checkbox
+{
+    padding: 16px 2px 0 16px;
+}
+.checkbox input
+{
+    height: 15px;
+    width: 15px;
+}
+.downcheck
+{
+    padding-top:16px;
+}
+.reload-btn
+{
+    padding-top:16px;
+    padding-left: 20px;
+}    
+
+.three-dot{
+    padding-top:16px;
+    padding-left: 20px;
+}
+.pagination
+{
+    font-size: 13px;
+    font-weight: 350;
+}
