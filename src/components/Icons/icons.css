@@ -1,0 +1,27 @@
+.icon-buttons
+{ 
+   display: flex;
+   flex-direction: row;
+   margin-top: 13px;
+   
+}
+.t7
+{
+    padding: 9px 9px 9px 15px;
+}
+.Xy
+{
+    padding: 9px;
+}
+.gb_Ve
+{
+    padding: 9px;
+}
+.userimage{
+    padding: 6px 6px 6px 10px;
+   
+
+}
+.userimage img{
+    border-radius: 50%;
+}
