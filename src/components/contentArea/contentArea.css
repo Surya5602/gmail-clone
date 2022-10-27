@@ -1,7 +1,6 @@
 .MainPage
 {
     height: 100vh;
-    width: 100%;
     background-color: rgb(246,248,252);
 }
 .Gmail-logo{
@@ -45,6 +44,6 @@
 }
 .labels img
 {
-   margin-left: 100px;
+   margin-left: 140px;
 
 }
