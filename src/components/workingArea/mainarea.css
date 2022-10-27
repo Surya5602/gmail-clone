@@ -1,10 +1,11 @@
 .main-area{
     background-color: rgb(246,248,252);
-    width: 100%;
+    gap:1rem;
 }
 .total
 {
     background-color: rgb(246,248,252);
-
+    width: 100%;
+   
 
 }

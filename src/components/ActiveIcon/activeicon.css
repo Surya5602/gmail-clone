@@ -2,7 +2,6 @@
     
     height: 36px;
     margin-top: 16px;
-    margin-left: 37px;
     border: 1px solid #dadce0;
     border-radius: 20px;
     flex-direction: row;
@@ -24,7 +23,7 @@
     }
 
 .Active-button p{
-    margin-left:10px ;
+  
     font-weight: 500;
     font-size: 15px;
     color:rgb(60,64,67);
