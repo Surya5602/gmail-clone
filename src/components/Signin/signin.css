@@ -18,7 +18,7 @@
     background-color: var(--background-color);
 }
 .card{
-    margin: auto auto;
+    margin: 1rem auto;
     min-height: 700px;
     max-height: 800px;
     width: 500px;
@@ -74,7 +74,7 @@
     transition:0.2s ease;
 
 }
-.inputLabel{
+.inputLabel,.passwordLabel{
     position:relative;
     display: block;
     width: 200px; 
@@ -83,7 +83,7 @@
     background-color: var(--background-color);
 }
 
-.inputLabel::before{
+.inputLabel::before,.passwordLabel::before{
     content: 'Email or phone';
     position: absolute;
     color: var(--primary-color);
@@ -91,24 +91,26 @@
     background-color: var(--background-color);
     transition:0.2s ease;
 }
-
-.input:focus ~ .inputLabel::before{
+.passwordLabel::before{
+    content: 'Enter your password';
+}
+.input1:focus ~ .inputLabel::before,.input1:focus ~ .passwordLabel::before{
     color: var(--secondary-color);
     font-size: 13px;
     top: -28px;
     z-index: 1;
 }
-.input:focus{
+.input1:focus{
     border: 1px solid var(--secondary-color);
 
 }
-.input:not(:focus):not(:placeholder-shown) ~ .inputLabel::before{
+.input1:not(:focus):not(:placeholder-shown) ~ .inputLabel::before,.input1:not(:focus):not(:placeholder-shown) ~ .passwordLabel::before{
     color: var(--secondary-color);
     font-size: 13px;
-    top: -24px;
+    top: -28px;
     z-index: 1;
 }
-.input:not(:focus):not(:placeholder-shown){
+.input1:not(:focus):not(:placeholder-shown){
     border: 1px solid var(--secondary-color);
 }
 .forgotten,.createAcc,.learn{
@@ -150,4 +152,71 @@
 }
 .next-btn:hover{
     background-color:rgb(26,85,245);
+}
+.footer{
+    width: 500px;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+.utils{
+    width: 40%;
+}
+.util-list{
+    width: 100%;
+    justify-content: space-between;
+}
+.region h5{
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: 0.90rem;
+}
+.util-items{
+    font-size: 0.90rem;
+    font-weight: 400;
+    list-style: none;
+    font-family: var(--font-family);
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.userMail{
+    background-color: var(--background-color);
+    border-radius: 1000px;
+    margin: 2rem auto;
+    width:  60%;
+    padding: 0.25rem;
+    border: 1px solid var(--border-color);
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.userMail_Mail{
+    font-weight: 400;
+    color:var(--primary-color);
+    font-size: 1rem;
+}
+.iconsMail{
+    font-size: 1.50rem;
+    color: var(--primary-color);
+}
+#userIcon{
+    color: black;
+}
+.passwordInput{
+    margin-top: 0.75rem;
+    /* justify-content: center; */
+    align-items: center;
+}   
+
+.passwordInput input[type=checkbox] {
+    display: inline-block;
+    margin-left: 0.25rem;
+    margin-right: 1.25em;
+    height: 1.25rem;
+    width: 1.25rem;
+    /* outline: 2px solid var(--primary-color);  */
+}
+#showPassword_label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--primary-color);
 }
