@@ -12,7 +12,7 @@ const Signin = () => {
                     <h4 className='title'>Sign in</h4>
                     <p className='desc'>to continue to Gmail</p>
                     <form className='form'>
-                        <input type="text" className='input' id='mail' placeholder=' ' />
+                        <input type="text" className='input1' id='mail' placeholder=' ' />
                         <label className='inputLabel' htmlFor='mail'></label>
                             <Link to="forgotmail" className='forgotten'>Forgot mail?</Link>
                         <p className='disclaimer'>
