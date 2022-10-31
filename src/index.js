@@ -11,7 +11,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Signin />}></Route>
-        <Route path="/login" element={<App />}></Route>
+        <Route path="/mail" element={<App />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
