@@ -1,45 +1,33 @@
 .message-top-total
 {
-    justify-content: space-between;
     background-color: white;
-    height: 80%;
-    /* margin-left: 18px; */
-    margin-top: 5px;
+    margin: 10px 10px 0 20px;
     border-radius: 15px;
+    padding: 8px 0 0 22px;
     
-}
-
-.checkbox
-{
-    padding: 16px 2px 0 16px;
 }
 .checkbox input
 {
     height: 15px;
     width: 15px;
 }
-.downcheck
-{
-    padding-top:16px;
-}
-.reload-btn
-{
-    padding-top:16px;
-    padding-left: 20px;
-}    
 
-.three-dot{
-    padding-top:16px;
-    padding-left: 20px;
-}
-.right-side
-{
+.left-side{
     justify-content: center;
     align-items: center;
 }
-.pagination
+.right-side
 {
-    font-size: 12px;
-    font-weight: 350;
-   
+    margin-left: 64%;
+    justify-content: center;
+    align-items: center;
+}
+.reload-btn
+{
+    padding-left: 19px;
+}
+.three-dot
+{
+    padding-left: 19px;
+
 }

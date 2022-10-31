@@ -1,6 +1,6 @@
 import React from 'react'
 import "./messagetop.css"
-import logo from "../../Assets/images/keyboard.png"
+import logo from "../../Assets/images/keyboard-solid.svg"
 function MessageTop() {
   return (
     <div className='message-top-total flex'>
@@ -10,13 +10,13 @@ function MessageTop() {
     </div>
     <div className='icons2 flex'>
     <div className='downcheck'>
-        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/arrow_drop_down_baseline_nv700_20dp.png'></img>
+        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/arrow_drop_down_baseline_nv700_20dp.png' alt='downcheck'></img>
     </div>
     <div className='reload-btn'>
-        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png'></img>
+        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png' alt='reload-button'></img>
     </div>
     <div className='three-dot'>
-        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/more_vert_baseline_nv700_20dp.png'></img>
+        <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/more_vert_baseline_nv700_20dp.png' alt='three-dot'></img>
 
     </div>
     </div>
@@ -27,10 +27,10 @@ function MessageTop() {
       </div>
       <div className='arrows flex'>
         <div className='left-aarow'>
-          <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_left_baseline_nv700_20dp.png'></img>
+          <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_left_baseline_nv700_20dp.png' alt='left-arrow'></img>
         </div>
         <div className='right-aarow'>
-            <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_right_baseline_nv700_20dp.png'></img>
+            <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_right_baseline_nv700_20dp.png' alt='right-arrow'></img>
         </div>
       </div>
       <div className='keyboard'>
