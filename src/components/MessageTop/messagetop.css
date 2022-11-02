@@ -1,9 +1,9 @@
 .message-top-total
 {
     background-color: white;
-    margin: 10px 10px 0 20px;
+    margin: 10px 10px 0 2px;
     border-radius: 15px;
-    padding: 8px 0 0 22px;
+    padding: 8px 0 0 15px;
     
 }
 .checkbox input
@@ -29,5 +29,24 @@
 .three-dot
 {
     padding-left: 19px;
+
+}
+.pagination{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(103,103,103);
+}
+.left-aarow
+{
+    margin-left: 20px;
+}
+.right-aarow
+{
+    margin-left: 20px;
+}
+.keyboard
+{
+    margin-left: 20px;
+
 
 }

@@ -1,0 +1,47 @@
+.messagebox
+{
+    margin-top: 7px;
+    align-items: center;
+    border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+.messagestarred
+{
+    margin-left: 10px;
+
+}
+.message-heading
+{
+    margin-left: 10px;
+    font-size: 15px;
+    width: 180px;
+  
+    font-weight: 300;
+}
+.message-body{
+    display: flex;
+}
+.message-subject 
+{
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.message-content p{
+    font-size: 15px;
+    font-weight: 300;
+    overflow: hidden;
+    width: 400px; 
+    white-space: nowrap;
+    color: grey;
+    text-overflow: ellipsis;
+
+}
+.time-mail
+{
+    margin-left: 40px;
+    font-size: 10px;
+    font-weight: 100;
+}
+.checkbox-message{
+    margin-left: 3px;
+}

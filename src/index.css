@@ -34,3 +34,6 @@ body {
   flex-direction: column;
 }
 
+.spacing{
+  margin-top: 20px;
+}

@@ -12,9 +12,8 @@ function MainArea() {
           <ActiveIcon/>
           <Icons/>
      </div>
-       <div>
+       <div className='total-message'>
         <Message/>
-    
        </div>
     </div>
   

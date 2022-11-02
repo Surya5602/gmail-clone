@@ -1,13 +1,13 @@
 import React from 'react'
 import "./messagetop.css"
 import logo from "../../Assets/images/keyboard-solid.svg"
+import Checkbox from '../Checkbox/Checkbox'
 function MessageTop() {
   return (
+  
     <div className='message-top-total flex'>
    <div className='left-side flex'>
-    <div className='checkbox'>
-    <input type="checkbox" ></input>
-    </div>
+    <Checkbox />
     <div className='icons2 flex'>
     <div className='downcheck'>
         <img src='https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/arrow_drop_down_baseline_nv700_20dp.png' alt='downcheck'></img>
@@ -42,6 +42,7 @@ function MessageTop() {
 
     </div>
    </div>
+   
   )
 }
 

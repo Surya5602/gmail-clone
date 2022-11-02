@@ -1,0 +1,50 @@
+
+  .titleApps {
+    text-align: left;
+  }
+  
+  .mytabs,
+  .titleApps {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 0 0;
+    align-items: center;
+    height: 75vh;
+    overflow-y: scroll;
+  }
+
+  .mytabs input[type="radio"] {
+    display: none;
+  }
+  
+  .mytabs label {
+    font-size: 14px;
+    margin-right: 145px;
+  }
+  
+  .mytabs .tab {
+    width: 100%;
+    background-color: rgb(242,246,252);
+    padding: 13px 0 13px 13px;
+    order: 1;
+    display: none;
+    border: 0.2px solid rgb(230, 230, 230);
+  }
+  
+  .mytabs .tab h2 {
+    font-size: 3em;
+  }
+  
+  .mytabs input[type='radio']:checked+label+.tab {
+    display: block;
+  }
+  
+  .mytabs input[type="radio"]:checked+label {
+    background: #fff;
+  }
+
+ .mytabimg
+ {
+    padding: 10px;
+    margin-left: 4px;
+ }
