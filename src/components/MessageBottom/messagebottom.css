@@ -1,0 +1,12 @@
+.total-storage {
+  background-color: grey;
+  height: 3px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.storage-used {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+}

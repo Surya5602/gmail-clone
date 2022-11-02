@@ -1,5 +1,4 @@
 import React from 'react'
-
 import "./IconButton1.css"
 function IconButton1({src, name , onClick , index}) {
     return (

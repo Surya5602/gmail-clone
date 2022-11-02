@@ -1,8 +1,10 @@
 .messagebox
 {
-    margin-top: 7px;
+   
+    padding: 10px;
     align-items: center;
-    border-bottom: 0.2px solid rgb(206, 201, 201);
+    border-bottom: 0.2px solid #dddddd;
+    background-color: rgb(242,246,252);
 }
 .messagestarred
 {

@@ -68,7 +68,6 @@ export default function Sidebar1() {
               column={val.rowCol}
               index={index}
               onClick={changeStyle}
-              
             />
           );
         })}
